@@ -10,14 +10,15 @@
     "@testing-library/user-event": "^7.1.2",
     "@typescript-eslint/eslint-plugin": "^2.10.0",
     "@typescript-eslint/parser": "^2.10.0",
-    "antd": "^4.0.0-rc.5",
+    "antd": "^4.3.0",
     "async-validator": "^3.2.3",
     "babel-eslint": "10.0.3",
     "babel-jest": "^24.9.0",
     "babel-loader": "8.0.6",
     "babel-plugin-import": "^1.13.0",
+    "babel-plugin-module-resolver": "^4.0.0",
     "babel-plugin-named-asset-import": "^0.3.6",
-    "babel-plugin-nornj-in-jsx": "^5.1.1",
+    "babel-preset-nornj-with-antd": "^5.2.0-rc.8",
     "babel-preset-react-app": "^9.1.1",
     "camelcase": "^5.3.1",
     "case-sensitive-paths-webpack-plugin": "2.3.0",
@@ -150,42 +151,12 @@
   },
   "babel": {
     "presets": [
-      "react-app"
-    ],
-    "plugins": [
+      "react-app",
       [
-        "import",
+        "nornj-with-antd",
         {
-          "libraryName": "antd",
-          "style": "css"
-        },
-        "antd"
-      ],
-      [
-        "nornj-in-jsx",
-        {
-          "extensionConfig": {
-            "switch": {
-              "needPrefix": "onlyUpperCase"
-            },
-            "empty": {
-              "needPrefix": "onlyUpperCase"
-            },
-            "tooltip": {
-              "needPrefix": "onlyUpperCase"
-            },
-            "mobxFormData": {
-              "useExpressionInProps": false
-            },
-            "mobxFieldData": {
-              "useExpressionInProps": false
-            },
-            "mobxField": {
-              "isDirective": true,
-              "isBindable": true,
-              "useExpressionInProps": true,
-              "newContext": false
-            }
+          "importPlugin": {
+            "style": "css"
           }
         }
       ]

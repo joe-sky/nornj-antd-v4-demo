@@ -1,4 +1,5 @@
 import React from 'react';
+import 'nornj-react';
 import logo from './logo.svg';
 import './App.css';
 import { Input, Form } from 'antd';
@@ -6,10 +7,10 @@ import { useLocalStore } from 'mobx-react-lite';
 import { AppLink } from './AppLink.tsx';
 
 function App() {
-  const formData = useLocalStore(() => (
-    <MobxFormData>
-      <MobxFieldData name="userName" value="joe_sky" type="string" required />
-    </MobxFormData>
+  const { formData } = useLocalStore(() => (
+    <mobxFormData>
+      <mobxFieldData name="userName" value="joe_sky" required min={3} max={10} />
+    </mobxFormData>
   ));
 
   return (
@@ -20,11 +21,11 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <AppLink showText={true} />
-        <MobxObserver>
-          <Form.Item n-mobxField={formData.userName}>
-            <Input n-mobxBind={formData.userName} />
+        <section>
+          <Form.Item label="User Name:" mobxField={formData.userName}>
+            <Input />
           </Form.Item>
-        </MobxObserver>
+        </section>
       </header>
     </div>
   );
