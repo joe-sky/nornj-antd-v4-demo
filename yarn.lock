@@ -2363,14 +2363,14 @@ babel-plugin-named-asset-import@^0.3.6:
   resolved "https://registry.yarnpkg.com/babel-plugin-named-asset-import/-/babel-plugin-named-asset-import-0.3.6.tgz#c9750a1b38d85112c9e166bf3ef7c5dbc605f4be"
   integrity sha512-1aGDUfL1qOOIoqk9QKGIo2lANk+C7ko/fqH0uIyC71x3PEGz0uVP8ISgfEsFuG+FKmjHTvFK/nNM8dowpmUxLA==
 
-babel-plugin-nornj-in-jsx@^5.2.0-rc.8:
-  version "5.2.0-rc.8"
-  resolved "https://registry.yarnpkg.com/babel-plugin-nornj-in-jsx/-/babel-plugin-nornj-in-jsx-5.2.0-rc.8.tgz#b15365b1643082d5261452014abccbb1c59abc2d"
-  integrity sha512-A8kU7ysAj4ystdgFxj7BJ5izq4MRCBVzN0SWqkbeM65JjngqR5c3/Ns1smm7bQefnj8k0kCTVWhd72bGwFQPfg==
+babel-plugin-nornj-in-jsx@^5.2.5:
+  version "5.2.5"
+  resolved "https://registry.yarnpkg.com/babel-plugin-nornj-in-jsx/-/babel-plugin-nornj-in-jsx-5.2.5.tgz#0952ab140f05bf6ec917744c29bfb61db651c153"
+  integrity sha512-wsxH3QvAPkxAPprRksOvWizH4PPntA7KL0Bm+n7ahpQSbnGwnVuYtG9A8j0Ep9JWYMiOmCqoLSixrVcFHZPsrw==
   dependencies:
     "@babel/core" "^7.1.2"
-    nornj "^5.2.0-rc.8"
-    nornj-react "^5.2.0-rc.8"
+    nornj "^5.2.5"
+    nornj-react "^5.2.5"
 
 babel-plugin-syntax-object-rest-spread@^6.8.0:
   version "6.13.0"
@@ -2398,14 +2398,14 @@ babel-preset-jest@^24.9.0:
     "@babel/plugin-syntax-object-rest-spread" "^7.0.0"
     babel-plugin-jest-hoist "^24.9.0"
 
-babel-preset-nornj-with-antd@^5.2.0-rc.8:
-  version "5.2.0-rc.8"
-  resolved "https://registry.yarnpkg.com/babel-preset-nornj-with-antd/-/babel-preset-nornj-with-antd-5.2.0-rc.8.tgz#0af7f3ff82cc0a6ea47305683b8af234c9415dc0"
-  integrity sha512-E4+KRrGmNCv//LXqNFh/OkLoNUEyrDoUnA3Xem2OojA1I2ZEsBZuzieiZ3MDME8jdQBl9IzSR05GSHkdNLnsTg==
+babel-preset-nornj-with-antd@^5.2.0:
+  version "5.2.5"
+  resolved "https://registry.yarnpkg.com/babel-preset-nornj-with-antd/-/babel-preset-nornj-with-antd-5.2.5.tgz#7ead696a788c864f426f59ccfa209ce4a922b106"
+  integrity sha512-k7bdxe4ZFOpNHJkzFQJgWNcJb18TQB2+ApPkD05DfLOUzi5qlb7GA8s0yiTHPiOmrkWvPgapsgqqcOvsGcCzZg==
   dependencies:
     babel-plugin-import "^1.13.0"
     babel-plugin-module-resolver "^3.2.0"
-    babel-plugin-nornj-in-jsx "^5.2.0-rc.8"
+    babel-plugin-nornj-in-jsx "^5.2.5"
     lodash.merge "^4.6.2"
 
 babel-preset-react-app@^9.1.1:
@@ -3629,7 +3629,7 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.9:
   dependencies:
     ms "2.0.0"
 
-debug@^3.0.0, debug@^3.1.1, debug@^3.2.5:
+debug@^3.1.1, debug@^3.2.5:
   version "3.2.6"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
   integrity sha512-mel+jf7nrtEl5Pn1Qx46zARXKDpBbvzezse7p7LqINmdoIk8PYP5SySaxEmYv6TZ0JyEKA1hsCId6DIhgITtWQ==
@@ -4301,9 +4301,9 @@ etag@~1.8.1:
   integrity sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
 
 eventemitter3@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.0.tgz#d65176163887ee59f386d64c82610b696a4a74eb"
-  integrity sha512-qerSRB0p+UDEssxTtm6EDKcE7W4OaoisfIMl4CngyEhjpYglocpNg6UEqCvemdGhosAsg4sO2dXJOdyBifPGCg==
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
+  integrity sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==
 
 events@^3.0.0:
   version "3.1.0"
@@ -4677,11 +4677,9 @@ flush-write-stream@^1.0.0:
     readable-stream "^2.3.6"
 
 follow-redirects@^1.0.0:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.10.0.tgz#01f5263aee921c6a54fb91667f08f4155ce169eb"
-  integrity sha512-4eyLK6s6lH32nOvLLwlIOnr9zrL8Sm+OvW4pVTJNoXeGzYIkHVf+pADQi+OJ0E67hiuSLezPVPyBcIZO50TmmQ==
-  dependencies:
-    debug "^3.0.0"
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
+  integrity sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
 
 for-in@^0.1.3:
   version "0.1.8"
@@ -5233,9 +5231,9 @@ http-proxy-middleware@0.19.1:
     micromatch "^3.1.10"
 
 http-proxy@^1.17.0:
-  version "1.18.0"
-  resolved "https://registry.yarnpkg.com/http-proxy/-/http-proxy-1.18.0.tgz#dbe55f63e75a347db7f3d99974f2692a314a6a3a"
-  integrity sha512-84I2iJM/n1d4Hdgc6y2+qY5mDaz2PUVjlg9znE9byl+q0uC3DeByqBGReQu5tpLK0TAqTIXScRUV+dg7+bUPpQ==
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/http-proxy/-/http-proxy-1.18.1.tgz#401541f0534884bbf95260334e72f88ee3976549"
+  integrity sha512-7mz/721AbnJwIVbnaSv1Cz3Am0ZLT/UBwkC92VlxhXv/k/BBQfM2fXElQNC27BVGr0uwUpplYPQM9LnaBMR5NQ==
   dependencies:
     eventemitter3 "^4.0.0"
     follow-redirects "^1.0.0"
@@ -7183,15 +7181,15 @@ normalize-url@^3.0.0:
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-3.3.0.tgz#b2e1c4dc4f7c6d57743df733a4f5978d18650559"
   integrity sha512-U+JJi7duF1o+u2pynbp2zXDW2/PADgC30f0GsHZtRh+HOcXHnw137TrNlyxxRvWW5fjKd3bcLHPxofWuCjaeZg==
 
-nornj-react@^5.2.0-rc.8:
-  version "5.2.0-rc.8"
-  resolved "https://registry.yarnpkg.com/nornj-react/-/nornj-react-5.2.0-rc.8.tgz#e5bc09345d89288811d3cb8e1ae0d3e27f45a82e"
-  integrity sha512-I5djF7pMHQX57h8i0LG+r+ZUiL/jIebrQkR9LwNczpK8E5LY82OX2A8NUBGkZanelb7skYFmnBL0PcYrNIvGvw==
+nornj-react@^5.2.5:
+  version "5.2.5"
+  resolved "https://registry.yarnpkg.com/nornj-react/-/nornj-react-5.2.5.tgz#af12dfc488f718b2577aac4200120feec0cf859d"
+  integrity sha512-HznT4lmJd35d2WKFg5i2HDFXQcHMAO7phTmbmZlETZwt2qmGpvzm/QMVgPZW9fmrko60/Wh0wiv59vrn4zhuCg==
 
-nornj@^5.2.0-rc.8:
-  version "5.2.0-rc.8"
-  resolved "https://registry.yarnpkg.com/nornj/-/nornj-5.2.0-rc.8.tgz#adfe4dadbcda189009396401416beb60cd29c046"
-  integrity sha512-JTd2IUhReK811bsuzT7XTMveBOD7VoNIIBq7L1e3FjlDPS53DHlpZN58LmKshFVxkgo+jTK0IRXggnM+0idp/w==
+nornj@^5.2.5:
+  version "5.2.5"
+  resolved "https://registry.yarnpkg.com/nornj/-/nornj-5.2.5.tgz#a674c0a18067c68f58be0c3ae009433e33ff4f67"
+  integrity sha512-MkMgtFx4JTHCW4w4vhCiDlR20Mgda3bs/hTuSRZfmEB6v+G4tGG+OVA1UMzMAT5L/SB+kY5p5LkBl2HTqRx54w==
 
 npm-run-path@^2.0.0:
   version "2.0.2"
