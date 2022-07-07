@@ -2363,14 +2363,14 @@ babel-plugin-named-asset-import@^0.3.6:
   resolved "https://registry.yarnpkg.com/babel-plugin-named-asset-import/-/babel-plugin-named-asset-import-0.3.6.tgz#c9750a1b38d85112c9e166bf3ef7c5dbc605f4be"
   integrity sha512-1aGDUfL1qOOIoqk9QKGIo2lANk+C7ko/fqH0uIyC71x3PEGz0uVP8ISgfEsFuG+FKmjHTvFK/nNM8dowpmUxLA==
 
-babel-plugin-nornj-in-jsx@^5.2.0-rc.8:
-  version "5.2.0-rc.8"
-  resolved "https://registry.yarnpkg.com/babel-plugin-nornj-in-jsx/-/babel-plugin-nornj-in-jsx-5.2.0-rc.8.tgz#b15365b1643082d5261452014abccbb1c59abc2d"
-  integrity sha512-A8kU7ysAj4ystdgFxj7BJ5izq4MRCBVzN0SWqkbeM65JjngqR5c3/Ns1smm7bQefnj8k0kCTVWhd72bGwFQPfg==
+babel-plugin-nornj-in-jsx@^5.3.4:
+  version "5.3.4"
+  resolved "https://registry.yarnpkg.com/babel-plugin-nornj-in-jsx/-/babel-plugin-nornj-in-jsx-5.3.4.tgz#707170132aec22814c647322ea7e4bea2153eb59"
+  integrity sha512-pcHsgwrfNtvGx54EdsyUgd0BM4YxSQVJLwFduIb3TmdMCwZLHRDevMjMC+YDOsV1skytAejGImNCImCYxM7M5A==
   dependencies:
     "@babel/core" "^7.1.2"
-    nornj "^5.2.0-rc.8"
-    nornj-react "^5.2.0-rc.8"
+    nornj "^5.3.4"
+    nornj-react "^5.3.4"
 
 babel-plugin-syntax-object-rest-spread@^6.8.0:
   version "6.13.0"
@@ -2398,14 +2398,14 @@ babel-preset-jest@^24.9.0:
     "@babel/plugin-syntax-object-rest-spread" "^7.0.0"
     babel-plugin-jest-hoist "^24.9.0"
 
-babel-preset-nornj-with-antd@^5.2.0-rc.8:
-  version "5.2.0-rc.8"
-  resolved "https://registry.yarnpkg.com/babel-preset-nornj-with-antd/-/babel-preset-nornj-with-antd-5.2.0-rc.8.tgz#0af7f3ff82cc0a6ea47305683b8af234c9415dc0"
-  integrity sha512-E4+KRrGmNCv//LXqNFh/OkLoNUEyrDoUnA3Xem2OojA1I2ZEsBZuzieiZ3MDME8jdQBl9IzSR05GSHkdNLnsTg==
+babel-preset-nornj-with-antd@^5.2.0:
+  version "5.3.4"
+  resolved "https://registry.yarnpkg.com/babel-preset-nornj-with-antd/-/babel-preset-nornj-with-antd-5.3.4.tgz#ce127b2538dd042688e6485b9f08b4ee3da26f85"
+  integrity sha512-+uROPP6udo4ZkZbccSaYeNju7TOnoIZ8HbMG89Lj9tHJOzw+e58grFppD8CswxsC1fQvgvN2CWa6D3tJnITneg==
   dependencies:
     babel-plugin-import "^1.13.0"
     babel-plugin-module-resolver "^3.2.0"
-    babel-plugin-nornj-in-jsx "^5.2.0-rc.8"
+    babel-plugin-nornj-in-jsx "^5.3.4"
     lodash.merge "^4.6.2"
 
 babel-preset-react-app@^9.1.1:
@@ -6970,15 +6970,10 @@ mobx@^5.15.4:
   resolved "https://registry.yarnpkg.com/mobx/-/mobx-5.15.4.tgz#9da1a84e97ba624622f4e55a0bf3300fb931c2ab"
   integrity sha512-xRFJxSU2Im3nrGCdjSuOTFmxVDGeqOHL+TyADCGbT0k4HHqGmx5u2yaHNryvoORpI4DfbzjJ5jPmuv+d7sioFw==
 
-moment@^2.24.0:
-  version "2.24.0"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
-  integrity sha512-bV7f+6l2QigeBBZSM/6yTNq4P2fNpSWj/0e7jQcy87A8e7o2nAfP/34/2ky5Vw4B9S446EtIhodAzkFCcR4dQg==
-
-moment@^2.25.3:
-  version "2.26.0"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.26.0.tgz#5e1f82c6bafca6e83e808b30c8705eed0dcbd39a"
-  integrity sha512-oIixUO+OamkUkwjhAVE18rAMfRJNsNe/Stid/gwHSOfHrOtw9EhAY2AHvdKZ/k/MggcYELFCJz/Sn2pL8b8JMw==
+moment@^2.24.0, moment@^2.25.3:
+  version "2.29.4"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.4.tgz#3dbe052889fe7c1b2ed966fcb3a77328964ef108"
+  integrity sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==
 
 move-concurrently@^1.0.1:
   version "1.0.1"
@@ -7183,15 +7178,15 @@ normalize-url@^3.0.0:
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-3.3.0.tgz#b2e1c4dc4f7c6d57743df733a4f5978d18650559"
   integrity sha512-U+JJi7duF1o+u2pynbp2zXDW2/PADgC30f0GsHZtRh+HOcXHnw137TrNlyxxRvWW5fjKd3bcLHPxofWuCjaeZg==
 
-nornj-react@^5.2.0-rc.8:
-  version "5.2.0-rc.8"
-  resolved "https://registry.yarnpkg.com/nornj-react/-/nornj-react-5.2.0-rc.8.tgz#e5bc09345d89288811d3cb8e1ae0d3e27f45a82e"
-  integrity sha512-I5djF7pMHQX57h8i0LG+r+ZUiL/jIebrQkR9LwNczpK8E5LY82OX2A8NUBGkZanelb7skYFmnBL0PcYrNIvGvw==
+nornj-react@^5.3.4:
+  version "5.3.4"
+  resolved "https://registry.yarnpkg.com/nornj-react/-/nornj-react-5.3.4.tgz#e0267c67f2b60eb8869c8b89999bd3b621fa82c9"
+  integrity sha512-Hyv02Ig0TvmNHxTkpTN0L+RFvS3fmD/ZLTBTvFXAf4YDd30jMZGwNUvRnwQMMt9aFYtr5VyMpaXxqcpXU4GVrg==
 
-nornj@^5.2.0-rc.8:
-  version "5.2.0-rc.8"
-  resolved "https://registry.yarnpkg.com/nornj/-/nornj-5.2.0-rc.8.tgz#adfe4dadbcda189009396401416beb60cd29c046"
-  integrity sha512-JTd2IUhReK811bsuzT7XTMveBOD7VoNIIBq7L1e3FjlDPS53DHlpZN58LmKshFVxkgo+jTK0IRXggnM+0idp/w==
+nornj@^5.3.4:
+  version "5.3.4"
+  resolved "https://registry.yarnpkg.com/nornj/-/nornj-5.3.4.tgz#e22215067e371b59f0874146851c768f25ad73f4"
+  integrity sha512-NDp8cexs7qFtgPwrdZfEexI/eTi1H4nJOtQ9JE1uP+4Q9+ZzQavIRuop7c3+AWjQG9pPtY5xQwYtpz0HBf+raQ==
 
 npm-run-path@^2.0.0:
   version "2.0.2"
